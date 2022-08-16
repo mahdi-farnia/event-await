@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/mahdi-farnia/event-await/issues"
   },
-  "homepage": "https://github.com/mahdi-farnia/event-await#readme"
+  "homepage": "https://github.com/mahdi-farnia/event-await#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
