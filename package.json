@@ -1,0 +1,36 @@
+{
+  "name": "event-await",
+  "version": "1.0.0",
+  "description": "Promisified once event listener",
+  "exports": {
+    ".": {
+      "default": "./index.js",
+      "require": "./index.cjs",
+      "import": "./index.js"
+    }
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdi-farnia/event-await.git"
+  },
+  "keywords": [
+    "event-await",
+    "events",
+    "await",
+    "async",
+    "promise",
+    "once"
+  ],
+  "author": {
+    "name": "SoR (Mahdi Farnia)",
+    "email": "mohammadmahdi1383@outlook.com",
+    "url": "https://github.com/mahdi-farnia"
+  },
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/mahdi-farnia/event-await/issues"
+  },
+  "homepage": "https://github.com/mahdi-farnia/event-await#readme"
+}
