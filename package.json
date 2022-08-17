@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/mahdi-farnia/event-await#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@mahdi-farnia:registry": "https://npm.pkg.github.com"
   }
 }
