@@ -1,6 +1,6 @@
 {
   "name": "event-await",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promisified once event listener",
   "exports": {
     ".": {

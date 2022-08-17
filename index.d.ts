@@ -1,21 +1,24 @@
+export declare interface PromisedEvent<T> extends Promise<T> {
+  off(): void;
+}
 export default function once<E extends keyof HTMLElementEventMap>(
   target: HTMLElement,
   event: E
-): Promise<HTMLElementEventMap[E]>;
-export default function once(target: EventTarget, event: string): Promise<Event>;
+): PromisedEvent<HTMLElementEventMap[E]>;
+export default function once(target: EventTarget, event: string): PromisedEvent<Event>;
 export default function once<E extends keyof WindowEventMap>(
   target: Window,
   event: E
-): Promise<WindowEventMap[E]>;
+): PromisedEvent<WindowEventMap[E]>;
 export default function once<E extends keyof DocumentEventMap>(
   target: Document,
   event: E
-): Promise<DocumentEventMap[E]>;
+): PromisedEvent<DocumentEventMap[E]>;
 export default function once<E extends keyof HTMLBodyElementEventMap>(
   target: Body,
   event: E
-): Promise<HTMLBodyElementEventMap[E]>;
+): PromisedEvent<HTMLBodyElementEventMap[E]>;
 export default function once<E extends keyof WebSocketEventMap>(
   target: WebSocket,
   event: E
-): Promise<WebSocketEventMap[E]>;
+): PromisedEvent<WebSocketEventMap[E]>;
