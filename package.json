@@ -4,9 +4,9 @@
   "description": "Promisified once event listener",
   "exports": {
     ".": {
-      "default": "./index.js",
       "require": "./index.cjs",
-      "import": "./index.js"
+      "import": "./index.js",
+      "default": "./index.js"
     }
   },
   "type": "module",
